@@ -17,6 +17,11 @@ And as an extra study:
 
 1.  Multitask Downstream tasks
 
+Symbols:
+
+- \*   = Values that are unconfirmed or insinuated from their experiments.
+- N/A = Not available (or couldn't find it)
+
 ## Model Sizes of Paper Implementations
 
 | Paper                   | Expert Size             | Total Size              | Num Experts (per layer) | Num Layers                |
@@ -32,12 +37,11 @@ And as an extra study:
 | ST-MoE                  | 2816/20480              | 4.1/269B                | 32/64               | 6/6 (every 4)             |
 | Random Routing          |                         | 20M-200M                | 8/16                | 4/12                      |
 | Gating Dropout          |                         | 5.6/10B                 | 128/64              | 12/24                     |
-| BASE                    | 135/335/911M            | 1.5/44/117B             | 128?                | 1 (BASE Layer)            |
+| BASE                    | 135/335/911M            | 1.5/44/117B             | 128                | 1 (BASE Layer)            |
 | Switch Transformer      | 768/1024/4096 FFN Size  | 7/26/395/1571B          | 128/128/64/2048     | 12/24/24/15 (Every other) |
 | Evo MoE                 | 335M(MT/MLM/LM)         | 1.5(MT)/1.8(MLM LM)     | 4(MT)/16(MLM LM)    | 6(MT)/12(MLM LM)          |
 | Stable-MoE              |                         |                         |                     |                           |
 
-\\\* = Values that are unconfirmed or insinuated from their experiments.
 
 ## Experimental Setups of Baselines and Hardware
 
