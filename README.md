@@ -1,5 +1,5 @@
 ---
-author: Adam Ghanem
+author: Adam G
 title: MoE Paper Experimental Setups
 ---
 
